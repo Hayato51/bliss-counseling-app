@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+*{font-family:'Noto Sans JP',sans-serif}
+body{background:linear-gradient(160deg,#faf6f2,#f5ede6 40%,#f0ece8);min-height:100vh}
+@keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.fu{animation:fu .4s ease both}.fu1{animation:fu .4s ease .06s both}.fu2{animation:fu .4s ease .12s both}.fu3{animation:fu .4s ease .18s both}.fl{animation:fl 3s ease-in-out infinite}
